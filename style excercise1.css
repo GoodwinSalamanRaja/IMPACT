@@ -1,0 +1,117 @@
+.fluid1{
+    background-color: rgb(0,121,107);
+}
+.sm1{
+    background-color: rgb(0,121,107);
+}
+.row1-sty{
+    height: 41px;
+}
+.text-underline-hover{ 
+    text-decoration: none;
+}
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+.twi-sty{
+    color: rgb(175,213,208);
+}
+.twi-sty:hover{
+    color: white;
+}
+.nav-sty{
+    color: rgb(175,213,208);
+    font-weight: bold;
+}
+.nav-sty:hover{
+    color: white;
+}
+@media only screen and (max-width:767px){
+.boxflu{
+    background-color: rgb(0,131,116);
+   }
+.imgflu{
+    height: 885px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1199px) { 
+    .boxflu{
+        background-color: rgb(0,131,116);
+    }
+    .imgflu{
+        height: 885px;
+    }
+ } 
+ @media only screen and (min-width:1200px){
+    .imgflu{
+        height: 569px;
+    }
+    .img3{
+        width: 30%;
+    }
+ }
+ .box{
+       height: 245px; 
+ }
+ .backimg{
+    background-image: url("https://cdn.nimbusthemes.com/2017/09/09233341/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg");
+    height: 555px;
+    background-size: cover;
+    border-radius: 22px;
+    opacity: 0.8;
+}
+.ourflu{
+    background-color: rgb(246,246,246);
+    /* height: 911px */
+}
+.oursm{
+    background-color: rgb(246,246,246);
+}
+.icon::before{
+    display: inline-block;
+}
+.flu5{
+    background-color: rgb(246,246,246);
+    margin-top: 125px;
+}
+.dnav :hover{
+    color: green;
+}
+.twid{
+    color: rgb(162,162,162);
+}
+.twid :hover{
+    color: aqua;
+}
+.appimg1{
+    overflow: hidden;
+}
+.appimg1 img{
+    /* transition: box-shadow 0.3s ease-in; */
+    transition: transform 0.4s ease-in;
+}
+.appimg1 img:hover{
+    /* box-shadow: 3px 3px 9px red; */
+    /* transform: rotateY(360deg); */
+    transform: scale(1.1);
+}
+.navbar-nav li::after{
+    content: "";
+    height: 3px;
+    /* width: 0%; */
+    display: block;
+    transform: scaleX(0);
+    transition: width 0.5s ease-in;
+}
+.navbar-nav li:hover::after{
+    background-color: rgb(248,90,64);
+    transform: scaleX(0.8);
+    /* width: 100%; */
+}
+
+
+
+
+
+
+
